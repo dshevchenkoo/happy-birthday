@@ -1,9 +1,3 @@
-// Memory Game
-// © 2014 Nate Wiley
-// License -- MIT
-// best in full screen, works on phones/tablets (min height for game is 500px..) enjoy ;)
-// Follow me on Codepen
-
 (function(){
 	
 	var Memory = {
@@ -27,7 +21,7 @@
 			this.$game.html(this.html);
 			this.$memoryCards = $(".card");
 			this.paused = false;
-     	this.guess = null;
+     		this.guess = null;
 			this.binding();
 		},
 
@@ -108,7 +102,7 @@
 				frag += '<div class="card" data-id="'+ v.id +'"><div class="inside">\
 				<div class="front"><img src="'+ v.img +'"\
 				alt="'+ v.name +'" /></div>\
-				<div class="back"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/codepen-logo.png"\
+				<div class="back"><img src="https://pp.userapi.com/c849536/v849536491/1260a6/wta6Hmivou0.jpg"\
 				alt="Codepen" /></div></div>\
 				</div>';
 			});
@@ -118,63 +112,63 @@
 
 	var cards = [
 		{
-			name: "php",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/php-logo_1.png",
+			name: "withMe",
+			img: "https://pp.userapi.com/c849228/v849228691/12b98e/6NjUBEACsks.jpg",
 			id: 1,
 		},
 		{
-			name: "css3",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/css3-logo.png",
+			name: "two",
+			img: "https://pp.userapi.com/c849228/v849228691/12b997/THgd7q6wAVY.jpg",
 			id: 2
 		},
 		{
-			name: "html5",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/html5-logo.png",
+			name: "svadba",
+			img: "https://pp.userapi.com/c849228/v849228691/12b9a0/qMnPYbd4ln8.jpg",
 			id: 3
 		},
 		{
-			name: "jquery",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/jquery-logo.png",
+			name: "together",
+			img: "https://pp.userapi.com/c849228/v849228691/12b9aa/frtCvbUaOyk.jpg",
 			id: 4
 		}, 
 		{
-			name: "javascript",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/js-logo.png",
+			name: "VV",
+			img: "https://pp.userapi.com/c849228/v849228691/12b9b4/4LVi_t7YncM.jpg",
 			id: 5
 		},
 		{
-			name: "node",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/nodejs-logo.png",
+			name: "withN",
+			img: "https://pp.userapi.com/c849228/v849228691/12b9be/J3hpBJURTqs.jpg",
 			id: 6
 		},
 		{
-			name: "photoshop",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/photoshop-logo.png",
+			name: "withS",
+			img: "https://pp.userapi.com/c849228/v849228691/12b9c8/vSdbpTc4d6c.jpg",
 			id: 7
 		},
 		{
-			name: "python",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/python-logo.png",
+			name: "VV2",
+			img: "https://pp.userapi.com/c849228/v849228691/12b9d2/khwIqSdkc18.jpg",
 			id: 8
 		},
 		{
-			name: "rails",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/rails-logo.png",
+			name: "withPets",
+			img: "https://pp.userapi.com/c849228/v849228691/12b9dc/zslSs-N2-vQ.jpg",
 			id: 9
 		},
 		{
-			name: "sass",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/sass-logo.png",
+			name: "VVP",
+			img: "https://pp.userapi.com/c849228/v849228691/12b9e6/h21hUvo5lQ0.jpg",
 			id: 10
 		},
 		{
-			name: "sublime",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/sublime-logo.png",
+			name: "withAV",
+			img: "https://pp.userapi.com/c849228/v849228691/12b9f0/v0eU_0fcIts.jpg",
 			id: 11
 		},
 		{
-			name: "wordpress",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/wordpress-logo.png",
+			name: "withAV2",
+			img: "https://pp.userapi.com/c849228/v849228691/12b9fa/OTQKaRVJlqc.jpg",
 			id: 12
 		},
 	];
